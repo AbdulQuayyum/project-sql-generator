@@ -7,7 +7,7 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 
-const dummy = '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'
+const dummy = ""
 
 const configuration = new Configuration({
   apiKey: 'dummy',
