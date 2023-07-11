@@ -1,11 +1,9 @@
-import React from 'react'
-
 import MessageDisplay from './MessageDisplay'
 
-const MessagesDisplay = () => {
+const MessagesDisplay = ({ userMessages } : any) => {
   return (
     <div className='messages-display'>
-      <MessageDisplay />
+      {userMessages.map((userMessage : any, _index : any) => <MessageDisplay key={_index} message={userMessage}  /> )}
     </div>
   )
 }

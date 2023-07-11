@@ -7,10 +7,10 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 
-const dummy = ""
+const dummy = process.env.API_KEY
 
 const configuration = new Configuration({
-  apiKey: 'dummy',
+  apiKey: dummy,
 })
 
 const openai = new OpenAIApi(configuration)

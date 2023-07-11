@@ -1,6 +1,4 @@
-import React from 'react'
-
-const CodeDisplay = () => {
+const CodeDisplay = ({ text }: any) => {
   return (
     <div className="code-display">
       <div className="buttons">
@@ -9,7 +7,7 @@ const CodeDisplay = () => {
         <div className="button"></div>
       </div>
       <div className="code-output">
-        <p></p>
+        <p>{text}</p>
       </div>
     </div>
   )

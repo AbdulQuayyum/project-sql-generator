@@ -1,11 +1,9 @@
-import React from 'react'
-
-const MessageDisplay = () => {
+const MessageDisplay = ({ message }: any) => {
   return (
     <div className="message-display">
       <p>X </p>
       <p>user</p>
-      <p>message</p>
+      <p>{message}</p>
     </div>
   )
 }
