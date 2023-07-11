@@ -1,7 +1,11 @@
 import React from 'react'
 
 const CodeDisplay = () => {
-  return <div>CodeDisplay</div>
+  return (
+    <div className='code-display'>
+      CodeDisplay
+      </div>
+  )
 }
 
 export default CodeDisplay

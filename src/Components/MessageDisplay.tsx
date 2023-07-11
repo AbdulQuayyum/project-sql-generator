@@ -1,7 +1,11 @@
 import React from 'react'
 
 const MessageDisplay = () => {
-  return <div>MessageDisplay</div>
+  return (
+    <div className="message-display">
+      MessageDisplay
+      </div>
+  )
 }
 
 export default MessageDisplay
