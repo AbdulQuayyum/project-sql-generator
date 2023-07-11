@@ -3,8 +3,10 @@ import React from 'react'
 const MessageDisplay = () => {
   return (
     <div className="message-display">
-      MessageDisplay
-      </div>
+      <p>X </p>
+      <p>user</p>
+      <p>message</p>
+    </div>
   )
 }
 
